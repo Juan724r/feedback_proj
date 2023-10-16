@@ -2,12 +2,11 @@ import "./Header.css"
 
 function Header() {
     return ( 
-        <div className="">
-            <nav className="container flex justify-between px-4 py-8 mx-auto bg-white">
+            <nav className="container flex justify-between px-4 py-8 mx-auto backdrop-opacity-100 absolute">
                 <div>
                     <h3 className="text-2xl font-medium text-blue-500">LOGO</h3>
                 </div>
-                <div className="hidden space-x-8 lg:flex">
+                <div className="hidden space-x-8 lg:flex text-white">
                     <a href="#">Menu 1</a>
                     <a href="#">Menu 2</a>
                     <a href="#">Menu 3</a>
@@ -30,8 +29,6 @@ function Header() {
                     </svg>
                 </div>
             </nav>
-            
-        </div>
      );
 }
 

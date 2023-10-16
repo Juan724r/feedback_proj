@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: local('Montserrat-Regular'),
+      url('./Fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+    font-weight: bold;
+  }
+
+
+  @font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold'),
+      url('./Fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+
+  .font-montserrat-reg{
+    font-family: Montserrat-Regular;
+  }
+
+  .font-montserrat-bold{
+    font-family: Montserrat-Bold;
+  }

@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import './Fonts/Montserrat/static/Montserrat-Bold.ttf'
+import './Fonts/Montserrat/static/Montserrat-Regular.ttf'
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
